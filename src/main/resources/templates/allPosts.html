@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:each="post :  ${posts}">
+    <p>
+        <p th:text="${post.getBody()}">Posts Here o o</p>
+    </p>
+</div>
+</body>
+</html>

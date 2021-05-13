@@ -1,0 +1,137 @@
+body{
+margin:0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap:10px;
+
+}
+.subcontain1, .subcontain2, .subcontain3{
+    background-color:rgb(245, 245, 245);
+    text-align:center;
+}
+header{
+    height: 60px;
+    background-color:rgb(27, 150, 221);
+    margin-bottom: 10px;
+    
+}
+
+
+.rightgrid, .leftgrid{
+    display: grid;
+    grid-gap:10px;
+    grid-template-rows: repeat(1fr, auto);
+    background-color:rgb(192, 151, 76);
+    padding:5px;
+    
+}
+
+.subcontain{
+    width: 100%;
+    height: 700px;
+    color:#ff0000;
+    overflow: auto;
+
+}
+
+ .subcontain2{
+    
+    width: 100%;
+    height: 700px;
+    color:#820ab9;
+    overflow: auto;
+
+}
+
+.item{
+    background-color:blueviolet;
+}
+
+.incenter{
+    padding: 10px;
+    text-align: justify;
+
+}
+.itemcenter{
+    color:#222222;
+    background-color:rgb(255, 255, 255);
+    padding:15px;
+    border-radius:10px;
+    margin:15px 0;
+    -webkit-box-shadow: -2px 0px 3px 1px rgba(0,0,0,0.34); 
+box-shadow: -2px 0px 3px 1px rgba(119, 119, 119, 0.34);
+}
+
+.post-head, .comments{
+    display: grid;
+    grid-template-columns: 0.3fr 2fr 0.3fr;
+}
+.comment-text-input{
+    display: grid;
+    grid-template-columns: 0.3fr 2fr;
+    margin-top: 10px;
+}
+.post-like-comment{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 40px;
+    align-items: center;
+}
+.comment, .comment-num{
+    justify-items: right;
+    padding-right: 10px;
+    text-align: center;
+}
+.like, .like-num{
+    text-align: center;
+    padding-left: 10px;
+    /* background-color:rgb(78, 32, 121); */
+    justify-items: center;
+}
+
+.post-reaction-numbers{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr 1fr;
+    height: 20px;
+}
+
+/*.num-of-likes{*/
+/*    margin-left:60px;*/
+/*}*/
+.num-of-comments{
+    margin-left:5px;
+}
+
+.like-num, .comment-num{
+    margin-left:-150px;
+}
+.make-post{
+    background-color:violet;
+    padding: 15px;
+}
+
+textarea{
+    border:1px solid rgb(109, 109, 109);
+    border-radius: 15px;
+}
+
+button{
+    padding: 7px;
+    border:1px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    margin-top:10px;
+    margin-right: 50px;
+}
+.post-head{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom:1px solid rgb(253, 253, 253);
+    background-color: rgb(255, 255, 255);
+}
+.post-body{
+    margin-top:6px;
+    padding: 10px;
+}
