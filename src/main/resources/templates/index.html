@@ -15,12 +15,12 @@
             justify-items:center;
         }
 
-        .wrapper{
-            display:grid;
-            grid-template-columns:1fr 1fr;
-            background-color:rgb(240, 240, 240);
-            height: 700px;
-
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background-color: rgb(240, 240, 240);
+            min-height: 700px;
+            padding-left: 10%;
         }
         .item1{
             align-self: center;
@@ -31,7 +31,6 @@
         .item2{
             align-self: center;
             border: 1px solid white;
-            border-radius: 7px;
             margin: 2px 2px 2px 35px;
             padding: 30px;
             justify-items: center;
@@ -39,9 +38,6 @@
             width: 300px;
             font-size: 24px;
             background-color:white;
-            box-shadow: -3px -1px 15px 1px rgba(0,0,0,0.44);
-            -webkit-box-shadow: -3px -1px 15px 1px rgba(0,0,0,0.44);
-            -moz-box-shadow: -3px -1px 15px 1px rgba(0,0,0,0.44);
         }
         .lgform{
             text-align: center;
@@ -62,15 +58,14 @@
             border: 1px solid rgb(168, 168, 168);
             justify-self: center;
         }
-        #lgbtn{
-            margin:-15px;
+        #lgbtn {
+            margin: -15px;
             width: 330px;
             padding: 15px;
-            color:white;
-            background-color:blue;
+            color: white;
+            background-color: #1877f2;
             border-radius: 7px;
             border: 1px solid;
-
         }
         #cracc{
             width: auto;
@@ -90,17 +85,20 @@
             text-align: center;
             margin-bottom:15px;
             font-size: 14px;
-            color:rgb(0, 25, 253);
+            color: #1877f2;
+            font-family: sans-serif;
         }
-        .fb{
+        .fb {
             font-size: 64px;
             font-weight: bold;
-            color: rgb(8, 28, 212);
-
+            color: #1877f2;
+            font-family: sans-serif;
         }
-        .text1{
+
+        .text1 {
             font-size: 24px;
             margin-top: -25px;
+            font-family: sans-serif;
         }
     </style>
 </head>
@@ -118,6 +116,8 @@
 <!--        <%&#45;&#45;            <c:if test="${not empty message}" >&#45;&#45;%>-->
 <!--        <h7 id="errorMessage"><c:out value="${message}"/> </h7>-->
 <!--        </div>-->
+
+        <div th:text="${message}" style="font-size: 15px; padding-bottom: 9px; color: red"></div>
         <div class="lgform">
 
             <form action="#" th:action="@{/login}" method="post">

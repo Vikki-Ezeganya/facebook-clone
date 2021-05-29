@@ -82,9 +82,9 @@
         .subcontain2 {
 
             width: 100%;
-            height: 700px;
+            min-height: 700px;
             /*color: #820ab9;*/
-            overflow: auto;
+            /*overflow: auto;*/
         }
 
         .item {
@@ -250,17 +250,18 @@
 <header>
     <div class="head1"><IMG src="images/facebook.png" width="40px" height="40px"></div>
     <div class="head2"><input type="text" style="resize: vertical;
-                    overflow: auto;border: 0 red solid; height: 40px; width: 270px; border-radius: 18px; background-color: rgba(223,223,223,0.68)"
-                              placeholder="search facebook">
+                    overflow: auto;border: 0 red solid; height: 40px; width: 270px; background-color: rgb(244 244 244);
+    padding: 0 0 0 12px;"
+                              placeholder="search">
     </div>
-    <div class="head3"><IMG src="images/bell.png" width="30px" height="30px"></div>
-    <div class="head4"><IMG src="images/video.png" width="30px" height="30px"></div>
-    <div class="head5"><IMG src="images/shopping-bag.png" width="30px" height="30px"></div>
-    <div class="head6"><IMG src="images/iconfinder_user-alt_285645.png" width="30px" height="30px"></div>
-    <div class="head7"><IMG src="images/multiple-users-silhouette.png" width="30px" height="30px"></div>
-    <div class="head8"><IMG src="images/symbol-tool.png" width="30px" height="30px"></div>
-    <div class="head9"><IMG src="images/grandson.png" width="30px" height="30px"></div>
-    <div class="head10"><a href="logout"><IMG src=images/logout.png width="30px" height="30px"></a></div>
+    <div class="head3"></div>
+    <div class="head4"></div>
+    <div class="head5"></div>
+    <div class="head6"></div>
+    <div class="head7"></div>
+    <div class="head8"></div>
+    <div class="head9"><IMG src="images/bean.jpeg" width="30px" height="30px"></div>
+    <div class="head10"><a href="logout"><IMG src=images/logoutt.png width="30px" height="30px"></a></div>
 
 </header>
 
@@ -268,67 +269,11 @@
     <div class="subcontain">
         <div class="leftgrid">
 
-            <div class="itemm one" style="border-radius: 6px"><IMG src="images/grandson.png" width="90px" height="90px">
+            <div class="itemm one" style="border-radius: 6px; margin-left: 30px"><IMG src="images/bean.jpeg" width="90px" height="90px">
                 Profile
             </div>
-            <div class="itemm two" style=" border-bottom: 2px solid #e8e8e8">TWO Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm three" style=" border-bottom: 2px solid #e8e8e8">THREE Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm four" style=" border-bottom: 2px solid #e8e8e8">FOUR Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm five" style=" border-bottom: 2px solid #e8e8e8">FIVE Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm six" style=" border-bottom: 2px solid #e8e8e8"> SIX Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm seven" style=" border-bottom: 2px solid #e8e8e8">SEVEN Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm eight" style=" border-bottom: 2px solid #e8e8e8">EIGHT Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm nine" style=" border-bottom: 2px solid #e8e8e8">NINE Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm ten" style=" border-bottom: 2px solid #e8e8e8">RIGHT CONTAINER Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Ipsa,
-                quos!
-            </div>
 
-            <div class="itemm one" style=" border-bottom: 2px solid #e8e8e8">ONE</div>
-            <div class="itemm two" style=" border-bottom: 2px solid #e8e8e8">TWO Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm three" style=" border-bottom: 2px solid #e8e8e8">THREE Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm four" style=" border-bottom: 2px solid #e8e8e8">FOUR Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm five" style=" border-bottom: 2px solid #e8e8e8">FIVE Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm six" style=" border-bottom: 2px solid #e8e8e8">SIX Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm seven" style=" border-bottom: 2px solid #e8e8e8">SEVEN Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm eight" style=" border-bottom: 2px solid #e8e8e8">EIGHT Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm nine" style=" border-bottom: 2px solid #e8e8e8">NINE Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Ipsa, quos!
-            </div>
-            <div class="itemm ten" style=" border-bottom: 2px solid #e8e8e8">RIGHT CONTAINER Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Ipsa,
-                quos!
-            </div>
+
 
         </div>
     </div>
@@ -341,8 +286,8 @@
                     <textarea th:field="*{body}" id="firsttextarea"
                               style="resize: none; width: 100%;
                               background-color: rgba(239,239,239,0.68);
-                              height: auto; display:block; border-radius: 25px;
-                              border: 0 solid lightskyblue; padding-right: 15px;"
+                              height: auto; display:block; border-radius: 0px;
+                              border: 0 solid lightskyblue; padding: 10px 0 0 10px;"
                               name="post_text"
                               cols="70" rows="3" placeholder="What's on your mind?"></textarea>
 
@@ -497,7 +442,7 @@
 
                         <div class="item2">
                             <form action="#" th:action="@{/addComment}" th:object="${comment}" method="post">
-                    <textarea th:field="*{comment_body}" id="secondtextarea" style="resize: none; overflow: auto; height: auto;
+                    <textarea th:field="*{comment_body}" id="secondtextarea" style="resize: none; overflow: auto; height: auto; padding: 10px 0 0 10px; border-radius: 0px !important;
                     display:block;" name="comment" cols="55" rows="2" placeholder="write a comment"></textarea>
 
                                 <input type="hidden" th:value="${post.getPostId()}" name="post_id">
@@ -519,62 +464,6 @@
 
     <div class="subcontain">
         <div class="rightgrid">
-
-            <div id="test-this" class="item one" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/groups.png" width="40px"
-                                                                                 height="40px"> <div
-                    style="font-family: 'Arial Unicode MS'; padding-right: 1px">Friends</div></div>
-            <div class="item two" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/comment.png" width="40px"
-                                                                                 height="40px"> <span
-                    style="font-family: 'Arial Unicode MS';">Comment</span></div>
-            <div class="item three" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/connection.png"
-                                                                                   width="40px" height="40px"> <span
-                    style="font-family: 'Arial Unicode MS'">Connection</span></div>
-            <div class="item four" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/messenger.png"
-                                                                                  width="40px" height="40px"> <span
-                    style="font-family: 'Arial Unicode MS'">Messenger</span></div>
-            <div class="item five" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/social-media.png"
-                                                                                  width="40px" height="40px"><span
-                    style="font-family: 'Arial Unicode MS'">Social</span></div>
-            <div class="item six" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/like.png" width="40px"
-                                                                                 height="40px"><span
-                    style="font-family: 'Arial Unicode MS'">Love</span></div>
-            <div class="item seven" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/messenger%20(2).png"
-                                                                                   width="40px" height="40px"><span
-                    style="font-family: 'Arial Unicode MS'">Messenger</span></div>
-            <div class="item eight" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/social-growth.png"
-                                                                                   width="40px" height="40px"><span
-                    style="font-family: 'Arial Unicode MS'">Growth</span></div>
-            <div class="item nine" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/groups.png" width="40px"
-                                                                                  height="40px"></div>
-            <div class="item ten" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/facebook.png" width="40px"
-                                                                                 height="40px">
-            </div>
-            <IMG src="../static/images/groups.png" width="40px" height="40px"> Friends
-        </div>
-        <div class="item one" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/groups.png" width="40px"
-                                                                             height="40px"> Friends
-        </div>
-        <div class="item two" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/comment.png" width="40px"
-                                                                             height="40px"></div>
-        <div class="item three" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/connection.png" width="40px"
-                                                                               height="40px"></div>
-        <div class="item four" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/messenger.png" width="40px"
-                                                                              height="40px"></div>
-        <div class="item five" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/social-media.png" width="40px"
-                                                                              height="40px"></div>
-        <div class="item six" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/like.png" width="40px"
-                                                                             height="40px"></div>
-        <div class="item seven" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/messenger%20(2).png"
-                                                                               width="40px" height="40px"></div>
-        <div class="item eight" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/social-growth.png"
-                                                                               width="40px" height="40px"></div>
-        <div class="item nine" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/groups.png" width="40px"
-                                                                              height="40px"></div>
-        <div class="item ten" style=" border-bottom: 2px solid #e8e8e8"><IMG src="images/facebook.png" width="40px"
-                                                                             height="40px">
-        </div>
-        <IMG src="images/groups.png" width="40px" height="40px"> Friends
-    </div>
 
 
 </div>

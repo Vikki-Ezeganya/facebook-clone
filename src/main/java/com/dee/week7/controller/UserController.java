@@ -69,7 +69,7 @@ public class UserController {
             return "redirect:/save-post";
         }
         model.addAttribute("message", "Invalid email or password");
-        return "indexError";
+        return "index";
     }
 
 //    @GetMapping("/showposts")

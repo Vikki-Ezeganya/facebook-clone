@@ -78,7 +78,8 @@ body{
     text-align: center;
     margin-bottom:15px;
     font-size: 14px;
-    color:rgb(0, 25, 253);
+    color: dodgerblue;
+    font-family: sans-serif;
 }
 .fb{
     font-size: 64px;
